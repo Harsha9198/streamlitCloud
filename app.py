@@ -5,9 +5,10 @@ import openai
 from llama_index import SimpleDirectoryReader
 from langchain.cache import BaseCache,GPTCache
 from langchain.schema.prompt_template import BasePromptTemplate
+from langchain.prompts import PromptTemplate
 
 st.set_page_config(page_title="Documentation Assistant", page_icon="🦙", layout="centered", initial_sidebar_state="auto", menu_items=None)
-openai.api_key = "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"
+openai.api_key = "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"
 st.title("Chat with the CodeToCanvas docs💬")
 st.info("Get Back To Documentation [Documentation](https://tic.comakeit.com/)", icon="📃")
          
