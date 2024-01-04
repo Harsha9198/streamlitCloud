@@ -15,7 +15,7 @@ st.warning("Get Back To site 👉 [CanvasTocode](https://tic.comakeit.com/)", ic
          
 if "messages" not in st.session_state.keys(): # Initialize the chat messages history
     st.session_state.messages = [
-        {"role": "assistant", "content": "Ask me a question about CanvasToCode!"}
+        {"role": "🤖", "content": "Ask me a question about CanvasToCode!"}
     ]
 
 @st.cache_resource(show_spinner=False)
