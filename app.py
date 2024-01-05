@@ -8,7 +8,7 @@ from langchain.schema.prompt_template import BasePromptTemplate
 from langchain.prompts import PromptTemplate
 
 st.set_page_config(page_title="Documentation Assistant", page_icon="🤖", layout="centered", initial_sidebar_state="auto", menu_items=None)
-openai.api_key = "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"
+openai.api_key = st.secrets.openai_key
 st.title("Chat with the CanvasToCode docs💬")
 st.subheader("Talk to our canvas")
 st.warning("Get Back To site 👉 [CanvasTocode](https://tic.comakeit.com/)", icon="🌐")
